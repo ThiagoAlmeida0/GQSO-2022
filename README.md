@@ -2,6 +2,6 @@
 
 Esse projeto visa praticar conceitos de gestão e qualidade de software. 
 
-Esse repositório serve para auxiliar a aprendizagem.
+Esse repositório serve para auxiliar a aprendizagem dos discentes.
 
-Repositório feito na aula de gestão e qualidade de software.
+Repositório feito na aula de gestão e qualidade de software pelos alunos.

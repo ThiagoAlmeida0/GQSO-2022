@@ -12,4 +12,4 @@ Repositório feito na aula de gestão e qualidade de software pelos alunos.
 
 Para rodar o servidor primeiro instale as dependências
  - No terminal digite "npm install"
-Após instalar as dependênicas para iniciar o servidor execute no terminal "node app.js"
+ - Após instalar as dependênicas para iniciar o servidor execute no terminal "node app.js"

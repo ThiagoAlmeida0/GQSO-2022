@@ -27,7 +27,7 @@ function converterUrlParaNumero(urlString, numero) {
 app.use(function (req, res, next) {
     let teste = req.url.slice(5);
     console.log(teste);
-    let primeiroNumero = ""
+    let primeiroNumero = teste
    // let segundoNumero = ""
     primeiroNumero = converterUrlParaNumero(primeiroNumero);
     //segundoNumero = converterUrlParaNumero(segundoNumero)

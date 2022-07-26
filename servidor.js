@@ -50,7 +50,7 @@ app.get("/", (req, res) => {
   
       if (req.params.y != 0) {
           var div = parseInt(req.params.x) / parseInt(req.params.y)
-          res.send("O valor da divisão é:" + div)
+          res.send({resultado: "O valor da divisão é:" + div})
       }
       else {
           res.status(400).send("ERROR 400 BAD REQUEST DIVISAO POR ZERO ")

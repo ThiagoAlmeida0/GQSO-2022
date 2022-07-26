@@ -19,7 +19,7 @@ describe("Teste meu servidor", () => {
     it("deve retonar uma subtração valida", async () =>{
         const res = await request(app).get("/sub/5/2")
         const expectedResultado = 3
-        const expectedMessage = "O valor da subtração é: " + expectedResultado
+        const expectedMessage = "O valor da subtração é:" + expectedResultado
         expect(res.body.resultado).toEqual(expectedMessage)
     } )
 })

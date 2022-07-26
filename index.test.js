@@ -20,6 +20,11 @@ describe("Teste meu servidor", () => {
         const res = await request(app).get("/sub/5/2")
         const expectedResultado = 3
         const expectedMessage = "O valor da subtração é:" + expectedResultado
+    })
+    it("deve retonar uma divisão valida", async () =>{
+        const res = await request(app).get("/div/10/2")
+        const expectedResultado = 5
+        const expectedMessage = "O valor da divisão é:" + expectedResultado
         expect(res.body.resultado).toEqual(expectedMessage)
     } )
 })

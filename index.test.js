@@ -1,7 +1,7 @@
 const request = require("supertest");
 const app = require("./servidor")
 
-describe(" Test my server", () => {
+describe("Teste meu servidor", () => {
     it("deve retoranar a rota principal", async () =>{
 
        const res = await request(app).get("/")

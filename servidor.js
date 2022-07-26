@@ -43,7 +43,7 @@ app.get("/", (req, res) => {
   
   app.get("/sub/:x/:y", (req, res) => {
     var sub = parseInt(req.params.x) - parseInt(req.params.y);
-    res.send("O valor da subtração é:" + sub);
+    res.send({resultado: "O valor da subtração é:" + sub});
   });
   
   app.get("/div/:x/:y", (req, res) => {

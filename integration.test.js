@@ -11,7 +11,7 @@ describe("Teste meu servidor", () => {
         expect(response.body).toEqual({ resultado: "O valor da soma é: 3" })
 
     })
-    it("deve retonar a subtracao corretamente ", async () => {
+    it("deve retonar a subtração corretamente ", async () => {
 
         const response = await request(app)
             .get("/sub/10/2")

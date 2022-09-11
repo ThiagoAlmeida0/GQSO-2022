@@ -13,3 +13,6 @@ Repositório feito na aula de gestão e qualidade de software pelos alunos.
 Para rodar o servidor primeiro instale as dependências
  - No terminal digite "npm install"
  - Após instalar as dependênicas para iniciar o servidor execute no terminal "node app.js"
+
+Pra rodar os testes:
+- Abra o terminal e digite o comando "npm run test"

@@ -18,4 +18,11 @@ describe("Teste meu servidor", () => {
         expect(response.body).toEqual({ resultado: "O valor da subtração é:8" })
 
     })
+    it("deve retonar a divisão corretamente ", async () => {
+
+        const response = await request(app)
+            .get("/div/20/5")
+        expect(response.body).toEqual({ resultado: "O valor da divisão é:4" })
+
+    })
 })

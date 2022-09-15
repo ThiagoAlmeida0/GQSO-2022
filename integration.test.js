@@ -4,14 +4,6 @@ const app = require("./servidor");
 
 describe("Teste meu servidor", () => {
     
-    it("deve retonar rota inicial ", async () => {
-
-        const response = await request(app)
-            .get("/")
-        expect(response.body).toEqual({ message: "Bem vindo a API calculadora" })
-
-    })
-
     it("deve retonar a soma corretamente ", async () => {
 
         const response = await request(app)

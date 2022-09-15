@@ -4,7 +4,7 @@ const app = require("./servidor");
 
 describe("Teste meu servidor", () => {
     
-    it("deve retonar rota inicial ", async () => {
+    it("deve retonar a rota principal ", async () => {
 
         const response = await request(app)
             .get("/")
